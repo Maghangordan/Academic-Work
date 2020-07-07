@@ -1,0 +1,7 @@
+For exercise 4, we made an implementation of Dijkstra's algorithm. 
+The function dijkstra() can be found in ex_4.c and is used for a graph from the course literature, aswell
+as in exercise 2, only slightly modified. The function doesn't take any inputs, which is a downside, but
+we wanted the code to be easy to test and review. Dijkstra() computes the shortest path from
+a given vertex source to all other vertices, making the assumption that there are no negative weight cycles.
+To run and verify a test, enter a graph in dijkstra() and run the function. The graph has to be made
+"by hand" though, since addDirectedEdge() and addUndirectedEdge() don't support adding weights different from 1. 

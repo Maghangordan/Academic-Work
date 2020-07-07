@@ -1,0 +1,7 @@
+Exercise 2 is completed in ex2.c using the shortestPath() function, which uses functions from
+MatOps.c to create the graph/maze representation. After the maze graph data structure is done, dijkstra's algorithm
+is used to find the shortest path from the source to all other nodes. The path to the goal and only the goal
+is then printed. We have a function called dijkstra() in ex_4.c, and the code is basically the same except
+with the condition that it should only print the path to the selected goal.
+To test and verify, select a source node and a goal node in the function shortestPath in ex2.c.
+Then run the shortestPath() function. We assume that all edges have the weight = 1.

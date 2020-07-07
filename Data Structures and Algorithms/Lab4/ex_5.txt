@@ -1,0 +1,16 @@
+We tested the code of a group that used an adjacency list as opposed to our adjacency matrix graph
+data structure. 
+We tested the implementations of the functions in exercise 1 of a group that use adjacency lists
+as a graph data structure. We tried to add a directed edge in a graph between two nodes;
+one that does exist, and one that does not exist in the graph.
+The program crashed with an Out-of-Bounds type of error.
+Exception thrown: read access violation.
+v2 was 0xFDFDFDFD. (v2 being the second node, which doesn't exist).
+We then tested the code of a group using an adjacency matrix graph data structure, and we wanted to see
+how their SSSP-implementation handles negative-weight loops.
+In our test, we entered a graph with only negative weights and multiple loops.
+We got an answer, with negative distances, while the answers theoretically cannot be confirmed to be correct
+using Dijkstra's. We know from the pseudo code for dijkstra's algorithm that dijkstra's algorithm does
+not guarantee a correct answer for these kinds of graphs.
+Bellman-Fords algorithm would stop upon finding negative weight cycles, ie. when relax() further improves the
+Single-Source Shortest Path after running it once for all vertices.

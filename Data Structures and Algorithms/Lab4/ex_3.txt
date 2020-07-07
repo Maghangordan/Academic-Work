@@ -1,0 +1,7 @@
+Exercise 3 is solved using the functions SCC(),findSCC(), and min() as a utility function, all can
+be found in the ex3.c file.
+SCC() is the driver function which takes in our int** Graph, then returns the strongly connected
+components in the terminal with their respective node names.
+We made an arbitrary graph in which strongly connected components could be found easily.
+To test and verify, create a graph, put in some edges between some nodes,
+and run SCC() with the graph as input for SCC().

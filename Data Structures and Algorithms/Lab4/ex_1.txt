@@ -1,0 +1,6 @@
+Exercise 1 is to implement  a selection of functions for a graph data structure.
+The chosen graph data structure was an adjacency matrix, which was very simple to understand
+and use for the rest of the exercises, except in exercise 2. The functions are located in MatOps.c and are
+tested in the testing() function in the file funcTest.c.
+Testing was done out throughout the implementation. To test and verify, use the functions 
+such as in testing() and observe the results.
