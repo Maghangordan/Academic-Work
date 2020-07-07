@@ -1,0 +1,10 @@
+bst.c implements the dynamic operations on a binary search tree.
+Treedepth() returns an integer with the depth, treeSize() returns an integer
+with the number of elements in the tree. treeWalk prints out the numbers
+in the tree in sorted order. All three "extra" functions can be found in bst.c
+Testing can be found and executed in test.c using the testOps() function.
+
+
+
+
+

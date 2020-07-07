@@ -1,0 +1,12 @@
+
+There should be more comments overall, especially in the header files,
+for instructions on input, output, how the code behave and how to 
+implement it properly.
+As a first test, we attempted to find the successor of the maximum element
+The results showed:
+tree_successor() returns NULL when it cannot find a successor.
+If one does not check for this in the prompt before running the test,
+the program crashes. Andreas and Hadi however DO aknowledge this in their testing.
+
+We then tested what would happen if one would change "test-10-1-problem"
+to "test-10-10-problem", and the program exited without any errors.

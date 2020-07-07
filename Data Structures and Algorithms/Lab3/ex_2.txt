@@ -1,0 +1,6 @@
+testLoad() in the file load_test.c loads a file and prints out the
+sorted list. To load a file, load_file() from load_file.c is used.
+Functions from bst.c are used to add the numbers into a bst.
+To test and verify, use testLoad(). Make sure that the string name matches
+a file in the same folder as load_test.c
+To print out the sorted list, treeWalk is used.
