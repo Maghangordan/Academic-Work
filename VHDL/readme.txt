@@ -1,1 +1,1 @@
-The beauty of VHDL.
+The beauty of VHDL. This is a main entity with a "3 stage rocket" that simulates the behaviour of the tail light of a Datsun 510, i.e. sequential indicator light light up. The entity has 3 processes, one with the logic of input combinations from warning lights signal, brake signal, and left & right indicators. This state is saved as "next_state", which "curr_state" is updated to every clock event. Lastly, there's a process with sensitivity to "curr_state" that actually lights up the tail light.
