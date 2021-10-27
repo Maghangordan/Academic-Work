@@ -1,5 +1,6 @@
 from array import *
-
+# This code is written as a gravestone for my confidence after completely flunking my first technical interview
+# It only checks diagonals from bottom left to top right, but it's certainly better than what I could come up with on the spot.
 class Board:
     
     def __init__(self):
